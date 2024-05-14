@@ -1,0 +1,33 @@
+*{
+    margin: 300;
+    padding: 300;
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 0, 0);
+}
+form{
+    background-color: rgb(254, 102, 0);
+    width: 900px;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 2px solid rgb(254, 102, 0);
+    border-radius: 20% 20%;
+    border-top: dashed purple;
+    overflow-y: scroll;
+}
+label{
+    font: 2em sans-serif;
+    color:darkblue
+}
+input{
+    background-attachment: fixed;
+    font-size:xx-large;
+    background-color: aqua;
+}
+select{
+    background-color:aqua;
+    font: 2em sans-serif;
+}
