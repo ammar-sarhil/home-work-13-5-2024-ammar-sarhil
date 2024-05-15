@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book room</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>book a room</h1>
+    <form method="get">
+        <fieldset>
+          <legend>room</legend>
+          <label for="txt" >full name</label>
+          <input type="text" id="txt" placeholder="full name"  name="user" required>
+          <br><br>
+          <label for="email" >email</label>
+          <input type="email"id="email" placeholder="email" name="email" required>
+          <br><br>
+          <label for="t">tel</label>
+            <input type="tel" id="t" placeholder="your phone" name="tel" required>
+            <br> <br>
+
+          <label for="gen">genger</label>
+          <select name="gender" id="gen">
+              <option value="male">male</option>
+              <option value="female">female</option>
+            
+          </select>
+          <br> <br>
+          <label for="num">The number of rooms</label>
+          <select name="num" id="num">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+          </select>
+          <br> <br>
+          <label for="type">The room type</label>
+          
+            <input type="radio" id="x" name="x">
+            <label for="x">single</label>
+        
+            <input type="radio" id="xy" name="x">
+            <label for="xy">double</label>
+            <br> <br>
+
+            <label for="check in">from the date of</label>
+            <input type="date" id="check in">
+            <label for="check out">until date</label>
+            <input type="date" id="check out">
+            <br> <br>
+            <label for="pay">payment method</label>
+            <input type="radio" id="cash" name="pay">
+            <label for="cash">cash</label>
+        
+            <input type="radio" id="visa" name="pay">
+            <label for="visa">visa card</label>
+            <br> <br>
+            
+   
+        
+          <input type="submit" value="حجز" id="sub">
+          <input type="reset" value="إلغاء" id="sub">
+        </fieldset>
+          </form>
+          
+</body>
+</html>
