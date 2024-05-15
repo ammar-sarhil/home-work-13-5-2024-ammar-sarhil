@@ -2,9 +2,7 @@
     margin: 300;
     padding: 300;
   }
-  body{
-   background-image: url("518332246.jpg");
-  }
+
   h1{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 0, 0);
@@ -21,7 +19,7 @@ form{
 }
 label{
     font: 2em sans-serif;
-    color:darkblue
+    color:white ;
 }
 input{
     background-attachment: fixed;
