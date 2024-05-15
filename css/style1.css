@@ -3,5 +3,17 @@
     padding: 0;
 }
 ul{
-    border: 3px;
+   background-color: brown;
+   
+   list-style: none;
+   display: flex;
+}
+li{
+    padding: 15px;
+    font-size: x-large;
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }
